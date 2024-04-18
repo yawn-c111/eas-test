@@ -32,7 +32,7 @@ const config: HardhatUserConfig = {
     //   accounts: [process.env.PRIVATE_KEY ? process.env.PRIVATE_KEY : "0000000000000000000000000000000000000000000000000000000000000000"],
     // },
     sepolia: {
-      url: "https://rpc.seploia.com",
+      url: "https://rpc.sepolia.org",
       accounts: [process.env.PRIVATE_KEY ? process.env.PRIVATE_KEY : "0000000000000000000000000000000000000000000000000000000000000000"],
     },
     amoy: {
